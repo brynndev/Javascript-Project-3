@@ -1,0 +1,74 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page styling */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #FFF4F9;
+    font-family: Arial, sans-serif;
+    color: #713D59;
+}
+
+/* Heading */
+h1 {
+    font-size: 3rem;
+    color: #E86FA5;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 60px;
+    font-size: 1.1rem;
+}
+
+/* Circle container */
+.circles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+/* General circle styling */
+.circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+/* Circle colors */
+.pink {
+    background-color: #FF7CB8;
+}
+
+.yellow {
+    background-color: #FFD166;
+}
+
+.blue {
+    background-color: #8ED8F8;
+}
+
+.orange {
+    background-color: #FF9B71;
+}
+
+.purple {
+    background-color: #C6A5F7;
+}
+
+/* Hover animation */
+.circle.hover {
+    transform: scale(1.4);
+}
